@@ -19,7 +19,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet"
 import { ProductFilters } from "@/components/product-filters"
-import { Router } from "next/router"
+import { useRouter } from 'next/router'
 
 const sortOptions = [
   { name: "Newest", value: "/?date=desc" },
